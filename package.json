@@ -11,8 +11,8 @@
     "heroku-postbuild": "cd client && npm install && npm run build",
     "local": "npm run dbstart && cd client && npm run build && cd .. && npm start",
     "local_mac": "cd client && npm run build && cd .. && npm start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy":"cd client && npm run build && cd .. ",
+    "deploy":"cd client && gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
