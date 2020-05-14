@@ -1,0 +1,25 @@
+#search_container {
+	position : relative;
+	margin-top : 10%;
+	display : flex;
+	justify-content : center;
+}
+#search_all_type{
+	display : flex;
+	#flex-wrap : wrap;
+	#justify-content: space-evenly;
+}
+#search_type{
+	margin : 10px;
+	color: white;
+}
+#search_btn{
+	justify-content : center;
+	margin-top : 30px;
+	height : 25px;
+}
+
+#Search_table{
+	margin-top:"20vh";
+	margin-left:"5vw";
+}
